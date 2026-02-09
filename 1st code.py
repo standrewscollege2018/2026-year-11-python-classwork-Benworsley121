@@ -36,4 +36,4 @@ print(user_name)
 
 age = input("what is your age")
 
-print(f"hello {user_name}")
+print(f"hello {user_name}"you are {age})

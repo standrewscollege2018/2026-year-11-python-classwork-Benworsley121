@@ -18,6 +18,6 @@ else: weight=input("how much do you weigh")
 
 
 
-dosage = weight * 10
+dosage = int weight * 10
 
 print( f"you should take {dosage} mg of medicine")

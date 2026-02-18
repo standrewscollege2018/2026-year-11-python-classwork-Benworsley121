@@ -1,24 +1,38 @@
 '''asking for numbers task 2'''
 
 
-#setting boolean
-
-
-
-NUMBER == True
-
-while NUMBER == True:
-    
- 
-
-
-#asking for the numbers
+#asking for first number
 number1 = int(input("type in a number"))
 
-number2 = int(input("type in a number bigger than your previous one"))
+#while loop
+get_num = True
+while get_num == True:
+    
+    number2 = int(input("type in a number bigger than your previous one"))
 
-if number2 == > number1:
-    NUMBER == false
+    if number1 >= number2:
+        print("your second number should be bigger")
+
+    else:
+        get_num = False
+
+
+    
+#typing their numbers
+
+print( f"your numbers are {number1} and {number2}")
+  
+
+
+
+
+
+
+
+
+
+
+
 
     
 

@@ -12,10 +12,10 @@ print( f"your numbers are {number1} and {number2}")
 if number1 > number2:
    print("Your first number is bigger")
 
-if number2 > number1:
+elif number2 > number1:
    print("your second number is bigger")
 
-if number1 == number2:
+else: 
    print("your numbers are equal")
 
 #adding the numbers together

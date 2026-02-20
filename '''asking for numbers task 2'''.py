@@ -2,19 +2,42 @@
 
 
 #asking for first number
-number1 = int(input("type in a number"))
+
+
+get_num = True
+while get_num == True:
+    try:
+         number1 = int(input("type in a number"))
+         get_num = False
+    except ValueError:
+        print("that is not a number")
+       
+
+
+
+ 
+
+
+
+
+
 
 #while loop
 get_num = True
 while get_num == True:
+    try:
+        number2 = int(input("type in a number bigger than your previous one"))
+        if number1 >= number2:
+            print("your second number should be bigger")
+
+        else:
+            get_num = False     
+    except ValueError:
+        print("that is not a number")
+
+
     
-    number2 = int(input("type in a number bigger than your previous one"))
 
-    if number1 >= number2:
-        print("your second number should be bigger")
-
-    else:
-        get_num = False
 
 
     
